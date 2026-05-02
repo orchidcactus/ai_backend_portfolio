@@ -12,9 +12,9 @@
   - [ ] Build AIHero component
   - [ ] Build TerminalBox component
   - [ ] Put together the AI Engineer page
-- [ ] Implement Automation Page (`app/automation/page.tsx`)
-  - [ ] Build hero and content sections
-  - [ ] Use case breakdown
+- [x] Implement Automation Page (`app/automation/page.tsx`)
+  - [x] Build hero and content sections
+  - [x] Use case breakdown
 - [ ] Final Polish and Verification
   - [ ] Check responsiveness and design aesthetics
   - [ ] Ensure `npm run dev` works perfectly
