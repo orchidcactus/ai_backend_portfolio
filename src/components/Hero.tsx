@@ -14,17 +14,17 @@ export default function Hero() {
           {/* Left Column: Text */}
           <div className="max-w-2xl">
             <h1 className="text-4xl font-bold tracking-tight text-neutral-900 sm:text-6xl dark:text-white">
-              Engineering intelligence & automation.
+              Hi, My name is ______ ______.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-300">
-              I specialize in designing scalable AI backend systems and building robust automation solutions that transform small businesses.
+            <p className="mt-6 text-xl leading-8 text-neutral-600 dark:text-neutral-300">
+              I&apos;m an AI backend developer and an automation consultant.
             </p>
-            <div className="mt-10 flex flex-col sm:flex-row gap-4">
+            <div className="mt-16 flex flex-col sm:flex-row gap-8">
               <Button href="/ai-engineer" variant="primary" className="w-full sm:w-auto">
-                Hire for AI Engineering
+                Are you a recruiter looking to hire?
               </Button>
               <Button href="/automation" variant="outline" className="w-full sm:w-auto">
-                Automation Services
+                Are you a small business looking to automate?
               </Button>
             </div>
           </div>
