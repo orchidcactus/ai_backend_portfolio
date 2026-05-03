@@ -10,48 +10,21 @@ export default function Hero() {
       </div>
 
       <Container>
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8 items-center">
-          {/* Left Column: Text */}
-          <div className="max-w-2xl">
+        <div className="flex flex-col items-center text-center">
+          <div className="max-w-3xl">
             <h1 className="text-4xl font-bold tracking-tight text-neutral-900 sm:text-6xl dark:text-white">
-              Hi, My name is ______ ______.
+              Hi, My name is Maitri Patel.
             </h1>
             <p className="mt-6 text-xl leading-8 text-neutral-600 dark:text-neutral-300">
               I&apos;m an AI backend developer and an automation consultant.
             </p>
-            <div className="mt-16 flex flex-col sm:flex-row gap-8">
+            <div className="mt-16 flex flex-col sm:flex-row justify-center gap-8">
               <Button href="/ai-engineer" variant="primary" className="w-full sm:w-auto">
                 Are you a recruiter looking to hire?
               </Button>
               <Button href="/automation" variant="outline" className="w-full sm:w-auto">
                 Are you a small business looking to automate?
               </Button>
-            </div>
-          </div>
-
-          {/* Right Column: Visual Element */}
-          <div className="relative mx-auto w-full max-w-lg lg:max-w-none">
-            <div className="relative w-full rounded-2xl bg-neutral-900/5 p-2 ring-1 ring-inset ring-neutral-900/10 dark:bg-white/5 dark:ring-white/10 lg:rounded-3xl lg:p-4">
-              <div className="overflow-hidden rounded-xl bg-white shadow-2xl dark:bg-neutral-950">
-                <div className="flex bg-neutral-100/80 px-4 py-3 dark:bg-neutral-900/80 border-b border-neutral-200/50 dark:border-neutral-800/50 items-center gap-2">
-                  <div className="h-3 w-3 rounded-full bg-red-500"></div>
-                  <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
-                  <div className="h-3 w-3 rounded-full bg-green-500"></div>
-                </div>
-                <div className="p-6 font-mono text-sm leading-6 text-neutral-600 dark:text-neutral-400">
-                  <p><span className="text-purple-600 dark:text-purple-400">const</span> <span className="text-blue-600 dark:text-blue-400">systems</span> = [</p>
-                  <p className="ml-4">&quot;AI Model Serving&quot;,</p>
-                  <p className="ml-4">&quot;Agentic Workflows&quot;,</p>
-                  <p className="ml-4">&quot;Dental Clinic Automation&quot;,</p>
-                  <p className="ml-4">&quot;Scalable Microservices&quot;</p>
-                  <p>];</p>
-                  <br />
-                  <p><span className="text-purple-600 dark:text-purple-400">function</span> <span className="text-blue-600 dark:text-blue-400">build</span>() &#123;</p>
-                  <p className="ml-4">systems.forEach(optimize);</p>
-                  <p className="ml-4">systems.forEach(scale);</p>
-                  <p>&#125;</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
