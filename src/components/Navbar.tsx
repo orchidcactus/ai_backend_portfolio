@@ -17,7 +17,7 @@ export default function Navbar() {
       <Container className="flex h-16 items-center justify-end">
         <nav className="flex items-center gap-6 text-sm font-medium text-neutral-600 dark:text-neutral-400">
           <Link href="/ai-engineer" className="hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors">
-            AI Engineer
+            AI Backend Developer
           </Link>
           <Link href="/automation" className="hover:text-neutral-900 dark:hover:text-neutral-50 transition-colors">
             Automation
